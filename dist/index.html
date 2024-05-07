@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase 9</title>
+</head>
+<body>
+    <h1>BTP Project</h1>
+
+    <h2>Firebase Firestore</h2>
+
+    <form class="add">
+        <label for="place">Name of the Place:</label>
+        <input type="text" name="place" required>
+        <label for="FATALITIES">NO OF FATALITIES:</label>
+        <input type="number" name="FATALITIES" required>
+        <label for="GRIEVOUSLY">GRIEVOUSLY INJURED:</label>
+        <input type="number" name="GRIEVOUSLY" required>
+        <label for="MINOR">MINOR INJURED:</label>
+        <input type="number" name="MINOR" required>
+
+        <button>Add a new collection.</button>
+    </form>
+
+    <form class="delete">
+        <label for="id">Document id:</label>
+        <input type="text" name="id" required>
+
+        <button>delete a collection.</button>
+    </form>
+
+    <!-- <form class="update">
+        <label for="id">Document id:</label>
+        <input type="text" name="id" required>
+
+        <button>Update a book.</button>
+    </form> -->
+
+    <script src="bundle.js"></script>
+</body>
+</html>
